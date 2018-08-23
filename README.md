@@ -1,5 +1,5 @@
 # <a name="top">Avaj-Launcher</a>
-An aircraft simulation program for aircraft behavior due to weather changes. Implemented based on a given UML class diagram and required designed patterns.
+A program that simulates aircraft behavior due to weather changes. Implemented based on a given UML class diagram and required designed patterns.
 
 ## Contents
 
