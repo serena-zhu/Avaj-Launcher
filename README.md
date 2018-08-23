@@ -3,9 +3,9 @@ An aircraft simulation program for aircraft behavior due to weather changes. Imp
 
 ## Contents
 
-[Tehnologies & Design Patterns Used](#technology_patterns) | [Project Requirements](#requirements) | [Usage & Examples](#usage_examples)
+[Language & Design Patterns Used](#language_patterns) | [Project Requirements](#requirements) | [Usage & Examples](#usage_examples)
 
-## <a name="technology_patterns">Language & Design Patterns Used</a>
+## <a name="Language_patterns">Language & Design Patterns Used</a>
 
 The Avaj-Launcher program is written entirely in Java, implementing the following design patterns:
 
@@ -19,7 +19,7 @@ The Avaj-Launcher program is written entirely in Java, implementing the followin
 
 The simulator program was created based on the following UML diagram:
 
-<img src="uml_diagram.JPG" width="1000" height="500">
+<img src="uml_diagram.jpg" width="800" height="500">
 
 <a href="#top">↥ back to top</a>
 
