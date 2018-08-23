@@ -1,4 +1,5 @@
 package launcher.avaj.simulator.aircraft;
+// package aircraft;
 
 public class Coordinates {
 	private int longitude;
