@@ -1,8 +1,6 @@
-package launcher.avaj.simulator;
-
 import launcher.avaj.simulator.aircraft.AircraftFactory;
 import launcher.avaj.simulator.aircraft.Flyable;
-// import simulator.WeatherTower;
+import launcher.avaj.simulator.WeatherTower;
 
 public class Simulator {
 	public static void main(String[] args) {
@@ -14,12 +12,7 @@ public class Simulator {
 
 		String type = "balloon";
 		System.out.printf("Will try to create a %s...%n", type);
-		flyable = AircraftFactory.newAircraft(type, "hi", 36, 80, 18);
-		flyable.registerTower(weatherTower);
-
-		type = "jetplane";
-		System.out.printf("Will try to create a %s...%n", type);
-		flyable = AircraftFactory.newAircraft(type, "hiagain", 12, 600, 18);
+		flyable = AircraftFactory.newAircraft(type, "hi", 36, 80, 35);
 		flyable.registerTower(weatherTower);
 		// all aircrafts created and registered...
 

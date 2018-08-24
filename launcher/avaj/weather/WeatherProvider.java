@@ -21,16 +21,8 @@ public final class WeatherProvider {
 
 	public String getCurrentWeather(Coordinates coordinates) {
 
-		System.out.println("whyyyyy");
-
 		Random rand = new Random();
-		System.out.printf("random number is %d %n", rand.nextInt(100));
 
-		// Update later
-		//
-		//
-		//
-		//
 		int weatherKey = (coordinates.getLongitude() + coordinates.getLatitude() 
 							+ coordinates.getHeight()) * rand.nextInt(100) % 4;
 

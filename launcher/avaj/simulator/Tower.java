@@ -9,7 +9,6 @@ abstract class Tower {
 	private List<Flyable> observers = new ArrayList<Flyable>();
 
 	public void register(Flyable flyable) {
-		System.out.println("registering...");
    		observers.add(flyable);
 	}
 
@@ -18,9 +17,7 @@ abstract class Tower {
 	}
 
 	protected void conditionsChanged() {
-		System.out.println("im here");
 		for (Flyable flyable : this.observers) {
-			System.out.println("looping through observers");
 			flyable.updateConditions();
 		}
 	}
