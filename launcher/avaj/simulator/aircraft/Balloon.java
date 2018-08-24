@@ -21,7 +21,7 @@ public class Balloon extends Aircraft implements Flyable {
 						longitude, latitude, height);
 
 		System.out.printf("The weather is %s %n", weather);
-		
+
 		switch (weather) {
 			case "sun":
 				longitude += 2;
@@ -38,8 +38,7 @@ public class Balloon extends Aircraft implements Flyable {
 				break;
 		}
 
-		System.out.printf("New long lat height should be: %d %d %d %n", 
-						longitude, latitude, height);
+		this.coordinates = new Coordinates(longitude, latitude, height);
 
 		System.out.printf("New long lat height are: %d %d %d %n", 
 						this.coordinates.getLongitude(), 

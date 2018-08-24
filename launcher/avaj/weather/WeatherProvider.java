@@ -2,6 +2,8 @@ package launcher.avaj.weather;
 
 import launcher.avaj.simulator.aircraft.Coordinates;
 
+import java.util.Random;
+
 public final class WeatherProvider {
 	private static WeatherProvider weatherProvider;
 	private static String weather;
@@ -17,14 +19,20 @@ public final class WeatherProvider {
 		return weatherProvider;
 	}
 
-	// 0 rain
-	// 1 fog
-	// 2 sun
-	// 3 snow
 	public String getCurrentWeather(Coordinates coordinates) {
+
+		System.out.println("whyyyyy");
+
+		Random rand = new Random();
+		System.out.printf("random number is %d %n", rand.nextInt(100));
+
 		// Update later
+		//
+		//
+		//
+		//
 		int weatherKey = (coordinates.getLongitude() + coordinates.getLatitude() 
-							+ coordinates.getHeight()) % 4;
+							+ coordinates.getHeight()) * rand.nextInt(100) % 4;
 
 		switch(weatherKey) {
 			case 0:
