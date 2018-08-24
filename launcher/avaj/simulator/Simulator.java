@@ -1,6 +1,8 @@
+package launcher.avaj.simulator;
+
 import launcher.avaj.simulator.aircraft.AircraftFactory;
 import launcher.avaj.simulator.aircraft.Flyable;
-import launcher.avaj.simulator.WeatherTower;
+// import simulator.WeatherTower;
 
 public class Simulator {
 	public static void main(String[] args) {
@@ -15,7 +17,7 @@ public class Simulator {
 		flyable = AircraftFactory.newAircraft(type, "hi", 36, 80, 35);
 		flyable.registerTower(weatherTower);
 		// all aircrafts created and registered...
-
+		
 		//change weather each day
 		weatherTower.changeWeather();
 

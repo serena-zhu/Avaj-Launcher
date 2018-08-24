@@ -40,12 +40,16 @@ public class Balloon extends Aircraft implements Flyable {
 
 		if (height > 100) {
 			height = 100;
-		} else if (height <= 0) {
+		}
+
+		if (height <= 0) {
 			weatherTower.unregister(this);
 			System.out.printf("Need to unregister %n");
 			//print unregister message
 		} else {
 			this.coordinates = new Coordinates(longitude, latitude, height);
+
+			//print message?
 		}
 
 		System.out.printf("New long lat height are: %d %d %d %n", 
@@ -61,7 +65,7 @@ public class Balloon extends Aircraft implements Flyable {
 		this.weatherTower = weatherTower;
 		weatherTower.register(this);
 
-		System.out.printf("Tower says: Balloon#%s(%d) registered to the weather tower.", this.name, this.id);
+		System.out.printf("Tower says: Balloon#%s(%d) registered to the weather tower.%n", this.name, this.id);
 	}
 
 }
