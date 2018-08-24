@@ -3,6 +3,11 @@ package launcher.avaj.simulator;
 import launcher.avaj.simulator.aircraft.Coordinates;
 import launcher.avaj.weather.WeatherProvider;
 
+// package launcher.avaj.simulator;
+
+// import aircraft.Coordinates;
+// import weather.WeatherProvider;
+
 public class WeatherTower extends Tower {
 
 	public String getWeather(Coordinates coordinates) {

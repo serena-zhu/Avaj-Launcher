@@ -38,20 +38,30 @@ public class Balloon extends Aircraft implements Flyable {
 				break;
 		}
 
-		this.coordinates = new Coordinates(longitude, latitude, height);
+		if (height > 100) {
+			height = 100;
+		} else if (height <= 0) {
+			weatherTower.unregister(this);
+			System.out.printf("Need to unregister %n");
+			//print unregister message
+		} else {
+			this.coordinates = new Coordinates(longitude, latitude, height);
+		}
 
 		System.out.printf("New long lat height are: %d %d %d %n", 
 						this.coordinates.getLongitude(), 
 						this.coordinates.getLatitude(),
 						this.coordinates.getHeight());
+
+		//Need to log a message each time a weather change occurs with TYPE#NAME(UNIQUE_ID) : SPECIFIC_MESSAGE
 	}
 
 	@Override
 	public void registerTower(WeatherTower weatherTower) {
-		System.out.println("hiiiii");
 		this.weatherTower = weatherTower;
-		System.out.println("calling Tower's regirster method...");
 		weatherTower.register(this);
+
+		System.out.printf("Tower says: Balloon#%s(%d) registered to the weather tower.", this.name, this.id);
 	}
 
 }
