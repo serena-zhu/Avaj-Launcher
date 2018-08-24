@@ -1,5 +1,7 @@
 package launcher.avaj.weather;
 
+import launcher.avaj.simulator.aircraft.Coordinates;
+
 public final class WeatherProvider {
 	private static WeatherProvider weatherProvider;
 	private static String weather;
@@ -15,29 +17,30 @@ public final class WeatherProvider {
 		return weatherProvider;
 	}
 
-	// 0 Rain
-	// 1 Fog
-	// 2 Sun
-	// 3 Snow
+	// 0 rain
+	// 1 fog
+	// 2 sun
+	// 3 snow
 	public String getCurrentWeather(Coordinates coordinates) {
 		// Update later
-		int weatherKey = (coordinates.getLongitude() + coordinates.getLatitude() + getHeight()) % 4;
+		int weatherKey = (coordinates.getLongitude() + coordinates.getLatitude() 
+							+ coordinates.getHeight()) % 4;
 
 		switch(weatherKey) {
 			case 0:
-				this.weather = "Rain";
+				this.weather = "rain";
 				break;
 			case 1:
-				this.weather = "Fog";
+				this.weather = "fog";
 				break;
 			case 2:
-				this.weather = "Sun";
+				this.weather = "sun";
 				break;
 			case 3:
-				this.weather = "Snow";
+				this.weather = "snow";
 				break;
 			default:
-				this.weather = "Sun";
+				this.weather = "sun";
 		}
 		return this.weather;
 	}

@@ -16,6 +16,7 @@ public abstract class AircraftFactory {
 				flyable = new Balloon(name, coordinates);
 				break;
 			default:
+				System.out.println("im null");
 				flyable = null;
 		}
 
