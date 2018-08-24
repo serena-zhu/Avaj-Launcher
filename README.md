@@ -46,6 +46,8 @@ The first line of the scenario file contains the number of times the simulation 
 Below is an example of a simulation outcome:
 
 ```bash
+$ find . -name "*.java" > sources.txt
+$ javac -sourcepath @sources.txt
 $ java Simulator scenario.txt
 $ cat simulation.txt
 Tower says: Baloon#B1(1) registered to weather tower.
