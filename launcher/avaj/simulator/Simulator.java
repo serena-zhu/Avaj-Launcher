@@ -21,6 +21,7 @@ public class Simulator {
 			int simulationCount;
 			String line;
 			Flyable flyable;
+			boolean hasAircraft = false;
 
 			simulationCount = Integer.parseInt(reader.readLine());
 			if (simulationCount <= 0) {
@@ -29,6 +30,7 @@ public class Simulator {
 			}
 
 			while ((line = reader.readLine()) != null) {
+				hasAircraft = true;
 				flyable = null;
 				String[] data = line.split(" ");
 
@@ -45,6 +47,11 @@ public class Simulator {
 				if (flyable != null) {
 					flyable.registerTower(weatherTower);
 				}
+			}
+
+			if (!hasAircraft) {
+				System.out.println("No aircraft description provided. Exiting.");
+				System.exit(1);
 			}
 
 			while (simulationCount > 0) {
