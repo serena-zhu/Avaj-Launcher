@@ -2,8 +2,12 @@ package launcher.avaj.simulator;
 
 import launcher.avaj.simulator.aircraft.Flyable;
 
-import java.util.List;
+// import launcher.avaj.simulator.aircraft.Coordinates;
+// import launcher.avaj.simulator.aircraft.Aircraft;
+
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Iterator;
 
 abstract class Tower {
 	private List<Flyable> observers = new ArrayList<Flyable>();
@@ -17,8 +21,10 @@ abstract class Tower {
 	}
 
 	protected void conditionsChanged() {
-		for (Flyable flyable : this.observers) {
-			flyable.updateConditions();
+		List<Flyable> tmp = new ArrayList<Flyable>(this.observers);
+
+		for (Integer i = 0; i < tmp.size(); i++) {
+			tmp.get(i).updateConditions();
 		}
 	}
 }

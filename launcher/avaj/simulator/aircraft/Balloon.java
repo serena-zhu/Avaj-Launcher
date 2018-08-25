@@ -44,6 +44,7 @@ public class Balloon extends Aircraft implements Flyable {
 
 		if (height <= 0) {
 			weatherTower.unregister(this);
+			
 			System.out.printf("Balloon#%s(%d): landing at %d, %d, 0 (long, lat, ht). %n", 
 							this.name, this.id, longitude, latitude);
 			System.out.printf("Tower says: Balloon#%s(%d) unregistered from weather tower. %n",

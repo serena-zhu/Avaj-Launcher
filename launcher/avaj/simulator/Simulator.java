@@ -13,32 +13,37 @@ import java.lang.InterruptedException;
 public class Simulator {
 	public static void main(String[] args) throws InterruptedException {
 		try {
-		
-			BufferedReader reader = new BufferedReader(new FileReader(args[0])); 
-			String line;
-			while ((line = reader.readLine()) != null) {
-				System.out.println(line);
-			}
-
 			WeatherTower weatherTower = new WeatherTower();
-
-			// loop through all aircrafts...
-
+			BufferedReader reader = new BufferedReader(new FileReader(args[0])); 
+			int simulationCount;
+			String line;
 			Flyable flyable;
 
-			String type = "balloon";
-			System.out.printf("Will try to create a %s...%n", type);
-			flyable = AircraftFactory.newAircraft(type, "hi", 36, 80, 18);
-			flyable.registerTower(weatherTower);
+			simulationCount = Integer.parseInt(reader.readLine());
+			if (simulationCount <= 0) {
+				System.out.println("Invalid number of simulations, exiting.");
+				System.exit(1);
+			}
 
-			type = "jetplane";
-			System.out.printf("Will try to create a %s...%n", type);
-			flyable = AircraftFactory.newAircraft(type, "hiagain", 12, 600, 18);
-			flyable.registerTower(weatherTower);
-			// all aircrafts created and registered...
+			while ((line = reader.readLine()) != null) {
+				flyable = null;
+				String[] data = line.split(" ");
+				if (data.length >= 5) {
+					flyable = AircraftFactory.newAircraft(data[0].toLowerCase(), data[1], 
+														Integer.parseInt(data[2]), 
+														Integer.parseInt(data[3]),
+														Integer.parseInt(data[4]));
+				}
+				if (flyable != null) {
+					flyable.registerTower(weatherTower);
+				}
+			}
 
-			//change weather each day
-			weatherTower.changeWeather();
+			while (simulationCount > 0) {
+				weatherTower.changeWeather();
+				simulationCount--;
+			}
+
 		} catch (FileNotFoundException e) {
 			System.out.printf("File %s not found.%n", args[0]);
 		} catch (IOException e) {

@@ -5,7 +5,7 @@ public abstract class AircraftFactory {
 		Flyable flyable;
 		Coordinates coordinates = new Coordinates(longitude, latitude, height);
 
-		switch (type.toLowerCase()) {
+		switch (type) {
 			case "helicopter":
 				 flyable = new Helicopter(name, coordinates);
 				break;
@@ -16,7 +16,6 @@ public abstract class AircraftFactory {
 				flyable = new Balloon(name, coordinates);
 				break;
 			default:
-				System.out.println("im null");
 				flyable = null;
 		}
 
