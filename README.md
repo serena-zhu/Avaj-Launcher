@@ -44,12 +44,12 @@ A Makefile is provided for cleaning .class files, compiling .java files and exec
 $ python3 Makefile.py
 usage: python3 Makefile.py [make | run | clean | makere] (filename)
 $ python3 Makefile.py makere
-Cleaning and recompiling...
+Cleaning and compiling...
 $ python3 Makefile.py run scenario.txt
 Executing...
 ```
 
-Below is an example of a simulation outcome:
+After running the program, a simulation.txt file is created. Below is an example of a simulation outcome:
 
 ```bash
 $ cat simulation.txt

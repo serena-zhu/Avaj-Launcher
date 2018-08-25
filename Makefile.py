@@ -20,7 +20,7 @@ if len(sys.argv) >= 2:
 		print("Cleaning...")
 		os.system(clean)
 	elif sys.argv[1] == "makere":
-		print("Cleaning and recompiling...")
+		print("Cleaning and compiling...")
 		os.system(clean + "&&" + make)
 	else:
 		print(usage)
