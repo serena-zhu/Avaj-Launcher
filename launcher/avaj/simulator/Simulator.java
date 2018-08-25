@@ -23,11 +23,12 @@ public class Simulator {
 			Flyable flyable;
 			boolean hasAircraft = false;
 
-			simulationCount = Integer.parseInt(reader.readLine());
-			if (simulationCount <= 0) {
+			line = reader.readLine();
+			if (line == null || !line.matches("\\d+")) {
 				System.out.println("Invalid number of simulations, exiting.");
 				System.exit(1);
 			}
+			simulationCount = Integer.parseInt(line);
 
 			while ((line = reader.readLine()) != null) {
 				hasAircraft = true;
