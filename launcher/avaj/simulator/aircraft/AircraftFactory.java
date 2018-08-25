@@ -2,7 +2,7 @@ package launcher.avaj.simulator.aircraft;
 
 public abstract class AircraftFactory {
 	public static Flyable newAircraft(String type, String name, int longitude, int latitude, int height) {
-		Flyable flyable;
+		Flyable flyable = null;
 		Coordinates coordinates = new Coordinates(longitude, latitude, height);
 
 		switch (type) {
@@ -16,7 +16,8 @@ public abstract class AircraftFactory {
 				flyable = new Balloon(name, coordinates);
 				break;
 			default:
-				flyable = null;
+				System.out.println("Invalid aircraft type. Exiting.");
+				System.exit(1);
 		}
 
 		return flyable;
