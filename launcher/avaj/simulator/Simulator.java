@@ -4,6 +4,7 @@ import launcher.avaj.simulator.aircraft.AircraftFactory;
 import launcher.avaj.simulator.aircraft.Flyable;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -13,8 +14,10 @@ import java.lang.InterruptedException;
 public class Simulator {
 	public static void main(String[] args) throws InterruptedException {
 		try {
+			File file = new File("simulation.txt");
+			file.delete();
 			WeatherTower weatherTower = new WeatherTower();
-			BufferedReader reader = new BufferedReader(new FileReader(args[0])); 
+			BufferedReader reader = new BufferedReader(new FileReader(args[0]));
 			int simulationCount;
 			String line;
 			Flyable flyable;
@@ -43,7 +46,6 @@ public class Simulator {
 				weatherTower.changeWeather();
 				simulationCount--;
 			}
-
 		} catch (FileNotFoundException e) {
 			System.out.printf("File %s not found.%n", args[0]);
 		} catch (IOException e) {
@@ -55,6 +57,9 @@ public class Simulator {
 
 	public static boolean isValidAircraft(String[] data) {
 
+		//exit if invalid type?
+		//exit if invalid number range?
+
 		if (data.length < 5) {
 			return false;
 		}
@@ -62,7 +67,7 @@ public class Simulator {
 		if (!data[2].matches("\\d+") || !data[3].matches("\\d+") || !data[4].matches("\\d+")) {
 			return false;
 		}
-		
+
 		return true;
 	}
 }
