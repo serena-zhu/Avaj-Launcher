@@ -72,23 +72,9 @@ public class Simulator {
 			return false;
 		}
 
-		// tmp = Integer.parseInt(data[2]);
-		// if (tmp < -180 || tmp > 180) {
-		// 	System.out.println("1");
-		// 	return false;
-		// }
-
-		// tmp = Integer.parseInt(data[3]);
-		// if (tmp < -90 || tmp > 90) {
-		// 	System.out.println("2");
-		// 	return false;
-		// }
-
-		// tmp = Integer.parseInt(data[4]);
-		// if (tmp < 0 || tmp > 0) {
-		// 	System.out.println("3");
-		// 	return false;
-		// }
+		if (Integer.parseInt(data[4]) > 100) {
+			return false;
+		}
 
 		if (!(data[0].equalsIgnoreCase("balloon") || data[0].equalsIgnoreCase("helicopter")
 				|| data[0].equalsIgnoreCase("jetplane"))) {

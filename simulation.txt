@@ -1,0 +1,198 @@
+Tower says: Balloon#B1(1) registered to weather tower. 
+Tower says: Balloon#B2(2) registered to weather tower. 
+Tower says: JetPlane#J1(3) registered to weather tower. 
+Tower says: Helicopter#H1(4) registered to weather tower. 
+Tower says: Helicopter#H2(5) registered to weather tower. 
+Tower says: Helicopter#H3(6) registered to weather tower. 
+Tower says: Balloon#B3(7) registered to weather tower. 
+Tower says: JetPlane#J2(8) registered to weather tower. 
+Tower says: Helicopter#H4(9) registered to weather tower. 
+Balloon#B1(1): Let's enjoy the good weather and take some pics. 
+Balloon#B2(2): It's so hard to see through this fog. 
+JetPlane#J1(3): It's raining. Better watch out for lightnings. 
+Helicopter#H1(4): My rotor is going to freeze! 
+Helicopter#H2(5): This is hot. 
+Helicopter#H3(6): I love rain. 
+Balloon#B3(7): Let's enjoy the good weather and take some pics. 
+JetPlane#J2(8): It's a great day. 
+Helicopter#H4(9): I love rain. 
+Balloon#B1(1): Let's enjoy the good weather and take some pics. 
+Balloon#B2(2): Darn you rain! You messed up my balloon. 
+JetPlane#J1(3): It's raining. Better watch out for lightnings. 
+Helicopter#H1(4): Everything is the same color. 
+Helicopter#H2(5): My rotor is going to freeze! 
+Helicopter#H3(6): This is hot. 
+Balloon#B3(7): Darn you rain! You messed up my balloon. 
+JetPlane#J2(8): It's raining. Better watch out for lightnings. 
+Helicopter#H4(9): My rotor is going to freeze! 
+Balloon#B1(1): Darn you rain! You messed up my balloon. 
+Balloon#B2(2): Let's enjoy the good weather and take some pics. 
+JetPlane#J1(3): It's raining. Better watch out for lightnings. 
+Helicopter#H1(4): I love rain. 
+Helicopter#H2(5): This is hot. 
+Helicopter#H3(6): I love rain. 
+Balloon#B3(7): Let's enjoy the good weather and take some pics. 
+JetPlane#J2(8): It's raining. Better watch out for lightnings. 
+Helicopter#H4(9): This is hot. 
+Balloon#B1(1): Darn you rain! You messed up my balloon. 
+Balloon#B2(2): It's so hard to see through this fog. 
+JetPlane#J1(3): It's raining. Better watch out for lightnings. 
+Helicopter#H1(4): This is hot. 
+Helicopter#H2(5): My rotor is going to freeze! 
+Helicopter#H3(6): I love rain. 
+Balloon#B3(7): Darn you rain! You messed up my balloon. 
+JetPlane#J2(8): It's raining. Better watch out for lightnings. 
+Helicopter#H4(9): My rotor is going to freeze! 
+Balloon#B1(1): Darn you rain! You messed up my balloon. 
+Balloon#B2(2): Darn you rain! You messed up my balloon. 
+JetPlane#J1(3): It's a great day. 
+Helicopter#H1(4): I love rain. 
+Helicopter#H2(5): This is hot. 
+Helicopter#H3(6): I love rain. 
+Balloon#B3(7): Darn you rain! You messed up my balloon. 
+JetPlane#J2(8): It's a great day. 
+Helicopter#H4(9): This is hot. 
+Balloon#B1(1): Darn you rain! You messed up my balloon. 
+Balloon#B2(2): It's so hard to see through this fog. 
+JetPlane#J1(3): It's raining. Better watch out for lightnings. 
+Helicopter#H1(4): This is hot. 
+Helicopter#H2(5): My rotor is going to freeze! 
+Helicopter#H3(6): I love rain. 
+Balloon#B3(7): Darn you rain! You messed up my balloon. 
+JetPlane#J2(8): I'm not afraid of a little fog. 
+Helicopter#H4(9): My rotor is going to freeze! 
+Balloon#B1(1): Let's enjoy the good weather and take some pics. 
+Balloon#B2(2): Let's enjoy the good weather and take some pics. 
+JetPlane#J1(3): It's raining. Better watch out for lightnings. 
+Helicopter#H1(4): I love rain. 
+Helicopter#H2(5): This is hot. 
+Helicopter#H3(6): I love rain. 
+Balloon#B3(7): Let's enjoy the good weather and take some pics. 
+JetPlane#J2(8): It's a great day. 
+Helicopter#H4(9): I love rain. 
+Balloon#B1(1): It's so hard to see through this fog. 
+Balloon#B2(2): Darn you rain! You messed up my balloon. 
+JetPlane#J1(3): It's raining. Better watch out for lightnings. 
+Helicopter#H1(4): This is hot. 
+Helicopter#H2(5): My rotor is going to freeze! 
+Helicopter#H3(6): I love rain. 
+Balloon#B3(7): Darn you rain! You messed up my balloon. 
+JetPlane#J2(8): It's raining. Better watch out for lightnings. 
+Helicopter#H4(9): I love rain. 
+Balloon#B1(1): Darn you rain! You messed up my balloon. 
+Balloon#B2(2): It's so hard to see through this fog. 
+JetPlane#J1(3): It's a great day. 
+Helicopter#H1(4): My rotor is going to freeze! 
+Helicopter#H2(5): I love rain. 
+Helicopter#H3(6): I love rain. 
+Balloon#B3(7): Let's enjoy the good weather and take some pics. 
+JetPlane#J2(8): I'm not afraid of a little fog. 
+Helicopter#H4(9): I love rain. 
+Balloon#B1(1): landing at 8, 3, 0 (long, lat, ht). 
+Tower says: Balloon#B1(1) unregistered from weather tower. 
+Balloon#B2(2): Darn you rain! You messed up my balloon. 
+JetPlane#J1(3): It's raining. Better watch out for lightnings. 
+Helicopter#H1(4): This is hot. 
+Helicopter#H2(5): I love rain. 
+Helicopter#H3(6): I love rain. 
+Balloon#B3(7): Let's enjoy the good weather and take some pics. 
+JetPlane#J2(8): It's raining. Better watch out for lightnings. 
+Helicopter#H4(9): I love rain. 
+Balloon#B2(2): This is way too cold. 
+JetPlane#J1(3): I'm not afraid of a little fog. 
+Helicopter#H1(4): I love rain. 
+Helicopter#H2(5): This is hot. 
+Helicopter#H3(6): I love rain. 
+Balloon#B3(7): It's so hard to see through this fog. 
+JetPlane#J2(8): It's raining. Better watch out for lightnings. 
+Helicopter#H4(9): I love rain. 
+Balloon#B2(2): Darn you rain! You messed up my balloon. 
+JetPlane#J1(3): It's raining. Better watch out for lightnings. 
+Helicopter#H1(4): I love rain. 
+Helicopter#H2(5): My rotor is going to freeze! 
+Helicopter#H3(6): I love rain. 
+Balloon#B3(7): Darn you rain! You messed up my balloon. 
+JetPlane#J2(8): It's raining. Better watch out for lightnings. 
+Helicopter#H4(9): This is hot. 
+Balloon#B2(2): It's so hard to see through this fog. 
+JetPlane#J1(3): It's raining. Better watch out for lightnings. 
+Helicopter#H1(4): I love rain. 
+Helicopter#H2(5): landing at 72, 33, 0 (long, lat, ht). 
+Tower says: Helicopter#H2(5) unregistered from weather tower. 
+Helicopter#H3(6): I love rain. 
+Balloon#B3(7): Darn you rain! You messed up my balloon. 
+JetPlane#J2(8): I'm not afraid of a little fog. 
+Helicopter#H4(9): This is hot. 
+Balloon#B2(2): Darn you rain! You messed up my balloon. 
+JetPlane#J1(3): It's a great day. 
+Helicopter#H1(4): I love rain. 
+Helicopter#H3(6): I love rain. 
+Balloon#B3(7): Darn you rain! You messed up my balloon. 
+JetPlane#J2(8): It's raining. Better watch out for lightnings. 
+Helicopter#H4(9): I love rain. 
+Balloon#B2(2): Darn you rain! You messed up my balloon. 
+JetPlane#J1(3): It's a great day. 
+Helicopter#H1(4): This is hot. 
+Helicopter#H3(6): I love rain. 
+Balloon#B3(7): Darn you rain! You messed up my balloon. 
+JetPlane#J2(8): It's raining. Better watch out for lightnings. 
+Helicopter#H4(9): My rotor is going to freeze! 
+Balloon#B2(2): Darn you rain! You messed up my balloon. 
+JetPlane#J1(3): It's a great day. 
+Helicopter#H1(4): Everything is the same color. 
+Helicopter#H3(6): I love rain. 
+Balloon#B3(7): Darn you rain! You messed up my balloon. 
+JetPlane#J2(8): It's raining. Better watch out for lightnings. 
+Helicopter#H4(9): My rotor is going to freeze! 
+Balloon#B2(2): Let's enjoy the good weather and take some pics. 
+JetPlane#J1(3): It's a great day. 
+Helicopter#H1(4): I love rain. 
+Helicopter#H3(6): I love rain. 
+Balloon#B3(7): landing at 112, 22, 0 (long, lat, ht). 
+Tower says: Balloon#B3(7) unregistered from weather tower. 
+JetPlane#J2(8): OMG! Winter is coming! 
+Helicopter#H4(9): My rotor is going to freeze! 
+Balloon#B2(2): Darn you rain! You messed up my balloon. 
+JetPlane#J1(3): It's a great day. 
+Helicopter#H1(4): I love rain. 
+Helicopter#H3(6): I love rain. 
+JetPlane#J2(8): It's raining. Better watch out for lightnings. 
+Helicopter#H4(9): My rotor is going to freeze! 
+Balloon#B2(2): Let's enjoy the good weather and take some pics. 
+JetPlane#J1(3): It's raining. Better watch out for lightnings. 
+Helicopter#H1(4): This is hot. 
+Helicopter#H3(6): I love rain. 
+JetPlane#J2(8): OMG! Winter is coming! 
+Helicopter#H4(9): Everything is the same color. 
+Balloon#B2(2): Darn you rain! You messed up my balloon. 
+JetPlane#J1(3): It's a great day. 
+Helicopter#H1(4): This is hot. 
+Helicopter#H3(6): I love rain. 
+JetPlane#J2(8): It's raining. Better watch out for lightnings. 
+Helicopter#H4(9): I love rain. 
+Balloon#B2(2): landing at 9, 8, 0 (long, lat, ht). 
+Tower says: Balloon#B2(2) unregistered from weather tower. 
+JetPlane#J1(3): OMG! Winter is coming! 
+Helicopter#H1(4): I love rain. 
+Helicopter#H3(6): I love rain. 
+JetPlane#J2(8): It's a great day. 
+Helicopter#H4(9): My rotor is going to freeze! 
+JetPlane#J1(3): It's raining. Better watch out for lightnings. 
+Helicopter#H1(4): I love rain. 
+Helicopter#H3(6): I love rain. 
+JetPlane#J2(8): OMG! Winter is coming! 
+Helicopter#H4(9): This is hot. 
+JetPlane#J1(3): It's raining. Better watch out for lightnings. 
+Helicopter#H1(4): I love rain. 
+Helicopter#H3(6): I love rain. 
+JetPlane#J2(8): It's raining. Better watch out for lightnings. 
+Helicopter#H4(9): landing at 274, 23, 0 (long, lat, ht). 
+Tower says: Helicopter#H4(9) unregistered from weather tower. 
+JetPlane#J1(3): It's a great day. 
+Helicopter#H1(4): Everything is the same color. 
+Helicopter#H3(6): I love rain. 
+JetPlane#J2(8): It's raining. Better watch out for lightnings. 
+JetPlane#J1(3): It's a great day. 
+Helicopter#H1(4): This is hot. 
+Helicopter#H3(6): I love rain. 
+JetPlane#J2(8): It's a great day. 
