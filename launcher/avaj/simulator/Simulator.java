@@ -28,7 +28,7 @@ public class Simulator {
 			while ((line = reader.readLine()) != null) {
 				flyable = null;
 				String[] data = line.split(" ");
-				if (data.length >= 5) {
+				if (isValidAircraft(data)) {
 					flyable = AircraftFactory.newAircraft(data[0].toLowerCase(), data[1], 
 														Integer.parseInt(data[2]), 
 														Integer.parseInt(data[3]),
@@ -51,5 +51,18 @@ public class Simulator {
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("Please provide scenario file for simulation.");
 		}
+	}
+
+	public static boolean isValidAircraft(String[] data) {
+
+		if (data.length < 5) {
+			return false;
+		}
+
+		if (!data[2].matches("\\d+") || !data[3].matches("\\d+") || !data[4].matches("\\d+")) {
+			return false;
+		}
+		
+		return true;
 	}
 }
